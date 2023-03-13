@@ -14,6 +14,7 @@ import './index.css';
 // renderizamos las rutas del archivo Root dentro del BrowserRouter
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/waltograph-disney" type="text/css" />
     <Root />
   </BrowserRouter>,
 );

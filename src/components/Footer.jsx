@@ -23,11 +23,16 @@ function Footer() {
           <div className="row">
             <div className="col-md-4 col-lg-3 footer-about fadeInUp animated" id="footer-about">
               <img className="logo-footer" src={ImgLogo} alt="logo" id="logo-footer" />
-              <p>Página creada por el grupo 2:</p>
-              <p>Cristina Alcántara</p>
-              <p>Ángel Martínez</p>
-              <p>Sara Escobar</p>
-              <p>Jorge Ramirez</p>
+              <p>Página creada por grupo 2:</p>
+              <p>
+                Cristina Alcántara
+                <br />
+                Ángel Martínez
+                <br />
+                Sara Escobar
+                <br />
+                Jorge Ramirez
+              </p>
             </div>
             <div className="col-md-4 col-lg-4 offset-lg-1 footer-contact fadeInDown animated" id="footer-contact">
               <h2>Contáctanos</h2>

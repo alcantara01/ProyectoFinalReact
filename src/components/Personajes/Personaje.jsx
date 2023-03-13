@@ -6,38 +6,64 @@ import { getPersonaje } from '../../services/personajes';
 
 export default function Personaje() {
   // se ejecuta cuando abres la pagina
-  // useEffect(() => {
   const params = useParams();
   const personajeId = params.id_personaje;
   const [personaje, setPersonaje] = useState([]);
-  // se ejecuta cuando abres la pagina
   useEffect(() => {
     // obtenemos los personajes de la api
     getPersonaje(personajeId).then((character) => {
-      // cargamos los personajes en la variable PersonajesFiltrados
-      console.log(character);
       setPersonaje(character);
     });
   }, []);
 
+  // Cuando pinchamos en un personaje, esta es la información que mostramos
   return (
-    <main>
+    <div className="container">
       <h2 id="carac-personaje">
         Características del personaje
       </h2>
-      <p id="c-personaje">
-        <p>
-          - Id del personaje:
-          {' '}
-          {`${personajeId}`}
+      <div className="card-personaje">
+        <p id="c-personaje">
+          <p>
+            - Id del personaje:
+            {' '}
+            {`${personajeId}`}
+          </p>
+          <p>
+            - Nombre:
+            {' '}
+            {`${personaje.name}`}
+          </p>
+          <p>
+            - Films:
+            {' '}
+            {`${personaje.films}`}
+          </p>
+          <p>
+            - Short Films:
+            {' '}
+            {`${personaje.shortFilms}`}
+          </p>
+          <p>
+            - Shows:
+            {' '}
+            {`${personaje.tvShows}`}
+          </p>
+          <p>
+            - Videogames:
+            {' '}
+            {`${personaje.videoGames}`}
+          </p>
+          <p>
+            - Park Attracctions:
+            {' '}
+            {`${personaje.parkAttractions}`}
+          </p>
         </p>
-        <p>
-          - Nombre:
-          {' '}
-          {`${personaje.name}`}
-        </p>
+      </div>
+      <div className="card-imagen">
         <img src={`${personaje.imageUrl}`} alt="foto personaje" />
-      </p>
-    </main>
+      </div>
+    </div>
   );
 }

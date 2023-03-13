@@ -9,7 +9,6 @@ import Personajes from '../components/Personajes/Personajes';
 import ErrorPage from '../components/Error-page';
 import Footer from '../components/Footer';
 import Personaje from '../components/Personajes/Personaje';
-// import Pelicula from '../components/Peliculas/Pelicula';
 
 function Root() {
   return (

@@ -1,5 +1,5 @@
-const urlPeliculas = 'http://api.disneyapi.dev/character?films';
-const urlPelicula = 'http://api.disneyapi.dev/character?films';
+const urlPeliculas = 'http://api.disneyapi.dev/characters?films';
+const urlPelicula = 'http://api.disneyapi.dev/characters?films';
 
 // con esta función obtenemos todas las películas
 export async function getPeliculas() {

@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar bg-disney">
       <div className="container-fluid">
-        <img src={ImgHeader} alt="" width="150" height="70" />
+        <img src={ImgHeader} alt="" width="100" height="70" />
         <ul className="ul-nav">
           <li className="li-nav"><NavLink className="li-nav-navlink btn border third mx-2" to="/">Home</NavLink></li>
           <li className="li-nav"><NavLink className="li-nav-navlink btn border third mx-2" to="/personajes">Personajes</NavLink></li>

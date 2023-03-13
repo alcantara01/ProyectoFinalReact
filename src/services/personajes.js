@@ -1,4 +1,4 @@
-const urlCharacters = 'http://api.disneyapi.dev/character';
+const urlCharacters = 'http://api.disneyapi.dev/characters';
 
 // con esta función obtenemos todos los personajes
 export async function getPersonajes() {
