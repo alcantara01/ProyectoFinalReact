@@ -1,0 +1,83 @@
+#bg-image-disney {
+  background-image: url(img/fondoDisney.webp);
+  background-size: cover;
+  height: 600px;
+}
+#cont{
+  background-color: black;
+}
+#tittle {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.ul-nav {
+  list-style-type: none;
+  text-align: center;
+}
+
+.li-nav {
+  float: left;
+  font: 2em sans-serif;
+  margin-top: 15px;
+}
+
+.li-nav-navlink {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.form-control {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 35%;
+  font-size: xx-large;
+}
+
+.bg-disney {
+  background-color: #035297;
+}
+
+.third {
+  border-color: #000000;
+  color: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.bg-negro {
+  background-color: #035297;
+}
+
+.btn-circle.btn-foot {
+  width: 45px;
+  height: 45px;
+  padding: 6px 0px;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#nombre-personaje {
+  color: #035297;
+}
+
+#buscador {
+  margin-left: 40%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-color: #035297;
+  border-radius: 5px;
+}
+
+#carac-personaje {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#c-personaje {
+  text-align: left;
+}
