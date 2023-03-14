@@ -134,3 +134,16 @@ a:link, a:visited, a:active {
 .pagination li a:hover {
   background-color: #ddd;
 }
+
+/*ERRORPAGE*/
+.container-error{
+  text-align: center;
+  margin: 20px;
+}
+
+.h1__container-error{
+  color: black;;
+}
+.imagen-error{
+  size: 10%;
+}
