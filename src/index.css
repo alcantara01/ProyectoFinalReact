@@ -115,3 +115,23 @@ p {
 .pagination li a:hover {
   background-color: #ddd;
 }
+
+
+/*ERRORPAGE*/
+.container-error{
+  text-align: center;
+  margin: 20px;
+}
+
+.h1__container-error{
+  color: black;
+}
+.p__container-error{
+  color: black;
+  text-align: center;
+}
+
+
+.imagen-error{
+  size: 10%;
+}

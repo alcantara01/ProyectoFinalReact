@@ -19,7 +19,7 @@ function Root() {
         <Route path="/peliculas" element={<Peliculas />} />
         <Route path="/personajes" element={<Personajes />} />
         <Route path="/personajes/:id_personaje" element={<Personaje />} />
-        <Route errorElement={<ErrorPage />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </>
