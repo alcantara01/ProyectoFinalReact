@@ -13,8 +13,12 @@ import './index.css';
 
 // renderizamos las rutas del archivo Root dentro del BrowserRouter
 ReactDOM.createRoot(document.getElementById('root')).render(
+  // BrowserRouter es el componente que utilizamos
+  // para crear nuestras rutas a otros páginas (components)
   <BrowserRouter>
+    {/* añadimos el tipo de letra de disney */}
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/waltograph-disney" type="text/css" />
+    {/* añadimos todas las rutas que contiene el root */}
     <Root />
   </BrowserRouter>,
 );
