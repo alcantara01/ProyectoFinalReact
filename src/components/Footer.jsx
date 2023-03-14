@@ -1,8 +1,11 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from 'react';
+// importamos bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
+// estos son los iconos de react para nuestro footer
 import {
   FaMapMarkerAlt,
   FaPhoneAlt,
@@ -12,16 +15,18 @@ import {
   FaInstagram,
   FaPinterest,
 } from 'react-icons/fa';
+// este es el logo de la palabra de disney
 import ImgLogo from '../img/disney_logo_word.png';
+// importamos el css del footer
 import '../footer.css';
 
 function Footer() {
   return (
     <footer>
-      <div className="footer-top" id="footer-top">
-        <div className="container">
+      <div className="footer-top">
+        <div className="container-footer-sup container-fluid">
           <div className="row">
-            <div className="col-md-4 col-lg-3 footer-about fadeInUp animated" id="footer-about">
+            <div className="col-md-4 col-sm-6 footer-about">
               <img className="logo-footer" src={ImgLogo} alt="logo" id="logo-footer" />
               <p>Página creada por grupo 2:</p>
               <p>
@@ -34,7 +39,7 @@ function Footer() {
                 Jorge Ramirez
               </p>
             </div>
-            <div className="col-md-4 col-lg-4 offset-lg-1 footer-contact fadeInDown animated" id="footer-contact">
+            <div className="col-md-4 footer-contact">
               <h2>Contáctanos</h2>
               <p>
                 <FaMapMarkerAlt />
@@ -54,7 +59,7 @@ function Footer() {
                 <a href="mailto:45003875.ies@edu.jccm.es">45003875.ies@edu.jccm.es</a>
               </p>
             </div>
-            <div className="col-md-4 col-lg-4 footer-links fadeInUp animated" id="footer-links">
+            <div className="col-md-4 footer-terminos">
               <div className="row">
                 <div className="col">
                   <h2>Términos</h2>
@@ -62,24 +67,24 @@ function Footer() {
               </div>
               <div className="row">
                 <div className="col-md-6">
-                  <p><a className="scroll-link" href="#section-1">Politica de privacidad</a></p>
-                  <p><a className="scroll-link" href="#section-1">Politica  de copyright</a></p>
-                  <p><a className="scroll-link" href="#section-2">Uso de cookies</a></p>
+                  <p><a className="terminos-link" href="https://www.amnesty.org/es/privacy-policy/">Politica de privacidad</a></p>
+                  <p><a className="terminos-link" href="https://www.amnesty.org/es/permissions/">Permisos</a></p>
+                  <p><a className="terminos-link" href="https://www.amnesty.org/es/cookie-statement/">Uso de cookies</a></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="footer-bottom" id="footer-bottom">
-        <div className="container" id="container">
+      <div className="footer-bottom">
+        <div className="container-footer-inf container-fluid">
           <div className="row">
-            <div className="col-md-6 footer-copyright" id="footer-copyright">
+            <div className="col-md-6 footer-copyright">
               © Pagina creada por alumnos del
               {' '}
               <a href="http://www.ies-azarquiel.es/">IES AZARQUIEL</a>
             </div>
-            <div className="col-md-6 footer-social" id="footer-social">
+            <div className="col-md-6 footer-redes">
               <a href="https://www.facebook.com/waltdisneystudioses"><FaFacebookSquare /></a>
               <a href="https://twitter.com/Disney"><FaTwitter /></a>
               <a href="https://www.instagram.com/disney/"><FaInstagram /></a>

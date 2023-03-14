@@ -1,7 +1,9 @@
 import React from 'react';
 // nos permite crear enlaces de navegación dentro de nuestra aplicación
 import { NavLink } from 'react-router-dom';
+// ponemos nuestro logo de disney
 import ImgHeader from '../img/logo.png';
+// importamos nuestro css
 import '../index.css';
 
 function Navbar() {
